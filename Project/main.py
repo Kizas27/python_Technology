@@ -3,7 +3,7 @@ import sys
 
 print(f"PYTHONPATH value: {os.getenv('PYTHONPATH')}")
 print("Trying to import examplepackage")
-sys.path.append("../../")
+sys.path.append("../Data")
 print(sys.path)
 print(f"PYTHONPATH value: {os.getenv('PYTHONPATH')}")
 
